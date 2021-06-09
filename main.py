@@ -1,3 +1,10 @@
+!pip install discord
+!pip install -U python-dotenv
+try:
+    !pip install discord.ext
+except:
+    pass
+
 import os
 import discord
 from discord.ext import commands
